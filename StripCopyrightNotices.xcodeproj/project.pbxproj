@@ -12,9 +12,7 @@
 		7C9885A6246F6165000AE0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9885A5246F6165000AE0A2 /* Assets.xcassets */; };
 		7C9885A9246F6165000AE0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9885A7246F6165000AE0A2 /* Main.storyboard */; };
 		7C9885B2246F61A4000AE0A2 /* CopyrightNoticesStripper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9885B1246F61A4000AE0A2 /* CopyrightNoticesStripper.swift */; };
-		7C9885B4246F7DBB000AE0A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C9885B3246F7DBB000AE0A2 /* README.md */; };
 		7C9885B6246F7EE9000AE0A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9885B5246F7EE9000AE0A2 /* ViewController.swift */; };
-		7C9885B8246F839D000AE0A2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9885B7246F839D000AE0A2 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,8 +141,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C9885B8246F839D000AE0A2 /* LICENSE.txt in Resources */,
-				7C9885B4246F7DBB000AE0A2 /* README.md in Resources */,
 				7C9885A6246F6165000AE0A2 /* Assets.xcassets in Resources */,
 				7C9885A9246F6165000AE0A2 /* Main.storyboard in Resources */,
 			);

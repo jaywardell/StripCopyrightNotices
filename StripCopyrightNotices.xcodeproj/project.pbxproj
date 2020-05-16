@@ -27,7 +27,7 @@
 		7C9885B3246F7DBB000AE0A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7C9885B5246F7EE9000AE0A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C9885B7246F839D000AE0A2 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		7C9885C7246F9DC6000AE0A2 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		7C9885C7246F9DC6000AE0A2 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		7C9885C6246F9A6D000AE0A2 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				7C9885C7246F9DC6000AE0A2 /* screenshot.png */,
+				7C9885C7246F9DC6000AE0A2 /* screenshot2.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";

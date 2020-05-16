@@ -10,5 +10,5 @@ It came about because I wanted to strip the copyright notices from another proje
 
 ## Contact
 
-twitter: @jaywardell
+twitter:  [@jaywardell](https://twitter.com/jaywardell)
 

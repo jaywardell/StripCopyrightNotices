@@ -685,7 +685,7 @@
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
@@ -705,8 +705,8 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="StripCopyrightNotices" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="109"/>
+                    <view key="view" misplaced="YES" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="121"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Vhg-6M-AgF">
@@ -720,7 +720,7 @@
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uAg-an-TDM">
-                                <rect key="frame" x="20" y="49" width="442" height="16"/>
+                                <rect key="frame" x="20" y="61" width="442" height="16"/>
                                 <textFieldCell key="cell" placeholderString="Choose files…" id="htC-XA-bln">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -728,7 +728,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dFf-nX-1e6">
-                                <rect key="frame" x="18" y="73" width="444" height="16"/>
+                                <rect key="frame" x="18" y="89" width="444" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Choose files that you want to remove the Copyright notice from:" id="1dX-uw-g5b">
                                     <font key="font" metaFont="systemSemibold" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -752,11 +752,11 @@
                             <constraint firstAttribute="trailing" secondItem="dFf-nX-1e6" secondAttribute="trailing" constant="20" id="Krp-Uq-hYR"/>
                             <constraint firstItem="dFf-nX-1e6" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="Zen-bP-foz"/>
                             <constraint firstAttribute="trailing" secondItem="uAg-an-TDM" secondAttribute="trailing" constant="20" id="p8s-TV-B7G"/>
-                            <constraint firstItem="uAg-an-TDM" firstAttribute="top" secondItem="dFf-nX-1e6" secondAttribute="bottom" constant="8" id="quz-rF-adI"/>
+                            <constraint firstItem="uAg-an-TDM" firstAttribute="top" secondItem="dFf-nX-1e6" secondAttribute="bottom" constant="12" id="quz-rF-adI"/>
                             <constraint firstItem="uAg-an-TDM" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="22" id="s7v-Te-02W"/>
                             <constraint firstItem="OSG-Qc-ziZ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="ukd-4m-rJr"/>
                             <constraint firstItem="Vhg-6M-AgF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OSG-Qc-ziZ" secondAttribute="trailing" constant="20" id="vLY-6b-582"/>
-                            <constraint firstItem="Vhg-6M-AgF" firstAttribute="top" secondItem="uAg-an-TDM" secondAttribute="bottom" constant="8" id="w96-NF-WnR"/>
+                            <constraint firstItem="Vhg-6M-AgF" firstAttribute="top" secondItem="uAg-an-TDM" secondAttribute="bottom" constant="20" id="w96-NF-WnR"/>
                         </constraints>
                     </view>
                     <connections>

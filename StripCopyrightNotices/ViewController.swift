@@ -17,6 +17,10 @@ class ViewController: MultipleFileSelectionViewController {
         self.filetypes = [String(kUTTypeSwiftSource)]
     }
     
+    override func awakeFromNib() {
+        view.window?.title = "Strip Copyright Notices"
+    }
+    
     @IBAction
     override func operateOnFiles(_ sender: Any) {
         chosenFiles.forEach {

@@ -11,6 +11,7 @@
 		7C9885A4246F6162000AE0A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9885A3246F6162000AE0A2 /* ViewController.swift */; };
 		7C9885A6246F6165000AE0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9885A5246F6165000AE0A2 /* Assets.xcassets */; };
 		7C9885A9246F6165000AE0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9885A7246F6165000AE0A2 /* Main.storyboard */; };
+		7C9885B2246F61A4000AE0A2 /* CopyrightNoticesStripper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9885B1246F61A4000AE0A2 /* CopyrightNoticesStripper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7C9885A8246F6165000AE0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C9885AA246F6165000AE0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C9885AB246F6165000AE0A2 /* StripCopyrightNotices.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StripCopyrightNotices.entitlements; sourceTree = "<group>"; };
+		7C9885B1246F61A4000AE0A2 /* CopyrightNoticesStripper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyrightNoticesStripper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				7C9885A1246F6162000AE0A2 /* AppDelegate.swift */,
 				7C9885A3246F6162000AE0A2 /* ViewController.swift */,
+				7C9885B1246F61A4000AE0A2 /* CopyrightNoticesStripper.swift */,
 				7C9885A5246F6165000AE0A2 /* Assets.xcassets */,
 				7C9885A7246F6165000AE0A2 /* Main.storyboard */,
 				7C9885AA246F6165000AE0A2 /* Info.plist */,
@@ -135,6 +138,7 @@
 			files = (
 				7C9885A4246F6162000AE0A2 /* ViewController.swift in Sources */,
 				7C9885A2246F6162000AE0A2 /* AppDelegate.swift in Sources */,
+				7C9885B2246F61A4000AE0A2 /* CopyrightNoticesStripper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +274,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = StripCopyrightNotices/StripCopyrightNotices.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = BU47XE2F27;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = StripCopyrightNotices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -281,6 +286,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.oldjewel.StripCopyrightNotices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -290,10 +296,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = StripCopyrightNotices/StripCopyrightNotices.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = BU47XE2F27;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = StripCopyrightNotices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.oldjewel.StripCopyrightNotices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -741,9 +741,6 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
-                                <connections>
-                                    <action selector="stripCopyrightNotices:" target="XfG-lQ-9wD" id="DwU-z8-E4N"/>
-                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -764,7 +761,7 @@
                     </view>
                     <connections>
                         <outlet property="chosenFileLabel" destination="uAg-an-TDM" id="0BF-aj-WyI"/>
-                        <outlet property="stripNoticesButton" destination="OSG-Qc-ziZ" id="dcC-Bv-3kf"/>
+                        <outlet property="operateOnFilesButton" destination="OSG-Qc-ziZ" id="Dgb-1A-Wcl"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

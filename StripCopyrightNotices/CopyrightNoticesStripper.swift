@@ -25,10 +25,8 @@ struct CopyrightNoticesStripper {
     }
     
     
-    func stripCopyrightNotices(from file:URL) {
-        print(#function)
-        
-        let contents = try! String(contentsOf: fileURL)
+    func stripCopyrightNotices(from file:URL) {        
+        guard let contents = try? String(contentsOf: fileURL) else { return }
         
         let lines = contents.split(separator: "\n", maxSplits: .max, omittingEmptySubsequences: false)
         let newLines = lines.filter { !$0.hasPrefix("//  Copyright")}
